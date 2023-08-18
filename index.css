@@ -316,7 +316,7 @@ body {
     position: absolute;
     top: 10%;
     left: 16px;
-    width: 30%;
+    width: 180px;
     box-shadow: 10px 5px 15px rgba(135, 132, 132, 0.208);
     transition: ease all 1s;
 }
@@ -408,7 +408,7 @@ body {
 .image:hover {
 
     .top-left {
-        left: 100px;
+        left: 20%;
         z-index: 2;
         background-color: rgba(255, 255, 255, 0.50);
         transition: all ease 1s;
