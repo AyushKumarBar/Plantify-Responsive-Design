@@ -46,6 +46,7 @@ body {
 
 .nav p:hover {
     color: tomato;
+    transition: ease-out all 0.2s;
 
 }
 
@@ -101,6 +102,7 @@ body {
     background-color: transparent;
     color: black;
     border: 1px solid black;
+    transition: ease-out all 0.5s;
 }
 
 .image-one {
@@ -180,7 +182,7 @@ body {
 .more:hover {
     background-color: black;
     color: white;
-
+    transition: ease-out all 0.5s;
     border: 1px solid black;
 }
 
@@ -362,6 +364,7 @@ body {
     background-color: black;
     color: white;
     border: 1px solid black;
+    transition: ease-out all 0.5s;
 }
 
 /* page seven */
@@ -649,6 +652,7 @@ body {
 #menuToggle a:hover
 {
   color: tomato;
+  transition: ease-out all 0.5s;
 }
 
 
