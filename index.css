@@ -316,10 +316,25 @@ body {
     position: absolute;
     top: 10%;
     left: 16px;
-    width: 180px;
-    box-shadow: 10px 5px 15px rgba(135, 132, 132, 0.208);
+    width: 80%;
+    height: 90%;
+
     transition: ease all 1s;
 }
+
+/* image hover effects */
+.image:hover {
+
+    .top-left {
+        left: 10%;
+        bottom: 2%;
+        z-index: 2;
+        /* background-color: rgba(255, 255, 255, 0.50); */
+        box-shadow: 15px 5px 15px rgba(135, 132, 132, 0.208);
+        transition: all ease 1s;
+    }
+}
+
 
 /* page six */
 .page-six {
@@ -404,16 +419,6 @@ body {
 }
 
 
-/* image hover effects */
-.image:hover {
-
-    .top-left {
-        left: 20%;
-        z-index: 2;
-        background-color: rgba(255, 255, 255, 0.50);
-        transition: all ease 1s;
-    }
-}
 
 
 @media screen and (max-width:1450px) {
@@ -496,9 +501,7 @@ body {
         transition: all ease 0.2s;
     }
 
-    .top-left {
-        width: 80%;
-    }
+
 
     .input-email {
         width: 100%;
@@ -541,9 +544,7 @@ body {
         font-size: 1.5rem;
     }
 
-    .top-left {
-        top: 1%;
-    }
+
 
     .page-two {
         flex-direction: column;
