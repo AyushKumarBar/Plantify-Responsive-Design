@@ -283,7 +283,7 @@ body {
 .gallery {
     display: grid;
     grid-template-areas:
-        'delight delight pear pear  elegans elegans'
+        ' pear pear  elegans elegans delight delight'
         'jewel jewel  crown crown bliss bliss';
 }
 
@@ -308,6 +308,8 @@ body {
     object-fit: cover;
     height: 100%;
     width: 100%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 .text {
@@ -498,8 +500,8 @@ body {
 
     .gallery {
         grid-template-areas:
-            'delight delight pear pear '
-            'elegans elegans jewel jewel'
+            ' pear pear elegans elegans'
+            'delight delight jewel jewel'
             'crown crown bliss bliss';
         transition: all ease 0.2s;
     }
