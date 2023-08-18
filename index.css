@@ -309,8 +309,9 @@ body {
 .page-six {
     margin: 100px;
     display: flex;
-    align-items: center;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
