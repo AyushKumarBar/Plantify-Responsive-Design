@@ -297,7 +297,7 @@ body {
     margin-top: 0;
     font-size: 2rem;
     font-weight: 600;
-
+    margin-bottom: 0;
 }
 
 .image {
@@ -310,14 +310,17 @@ body {
     width: 100%;
 }
 
+.text {
+    margin-top: 0;
+}
 
 
 .top-left {
     position: absolute;
-    top: 10%;
+    top: 0;
     left: 16px;
     width: 80%;
-    height: 90%;
+    height: 100%;
 
     transition: ease all 1s;
 }
